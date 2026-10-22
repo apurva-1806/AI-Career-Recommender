@@ -1,0 +1,289 @@
+{
+  "python": [
+    {"title": "The Python Tutorial", "provider": "python.org", "url": "https://docs.python.org/3/tutorial/", "type": "docs"},
+    {"title": "CS50's Introduction to Programming with Python", "provider": "Harvard", "url": "https://cs50.harvard.edu/python/", "type": "course"}
+  ],
+  "sql": [
+    {"title": "SQLBolt interactive lessons", "provider": "SQLBolt", "url": "https://sqlbolt.com/", "type": "course"},
+    {"title": "The SQL Tutorial for Data Analysis", "provider": "Mode", "url": "https://mode.com/sql-tutorial/", "type": "course"}
+  ],
+  "javascript": [
+    {"title": "The Modern JavaScript Tutorial", "provider": "javascript.info", "url": "https://javascript.info/", "type": "course"},
+    {"title": "JavaScript Guide", "provider": "MDN", "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide", "type": "docs"}
+  ],
+  "typescript": [
+    {"title": "The TypeScript Handbook", "provider": "typescriptlang.org", "url": "https://www.typescriptlang.org/docs/handbook/intro.html", "type": "docs"}
+  ],
+  "react": [
+    {"title": "Learn React", "provider": "react.dev", "url": "https://react.dev/learn", "type": "docs"}
+  ],
+  "next.js": [
+    {"title": "Learn Next.js", "provider": "Vercel", "url": "https://nextjs.org/learn", "type": "course"}
+  ],
+  "html": [
+    {"title": "Learn web development", "provider": "MDN", "url": "https://developer.mozilla.org/en-US/docs/Learn", "type": "course"}
+  ],
+  "css": [
+    {"title": "Learn CSS", "provider": "web.dev", "url": "https://web.dev/learn/css", "type": "course"}
+  ],
+  "tailwind css": [
+    {"title": "Tailwind CSS documentation", "provider": "Tailwind Labs", "url": "https://tailwindcss.com/docs", "type": "docs"}
+  ],
+  "responsive design": [
+    {"title": "Learn Responsive Design", "provider": "web.dev", "url": "https://web.dev/learn/design", "type": "course"}
+  ],
+  "accessibility": [
+    {"title": "Learn Accessibility", "provider": "web.dev", "url": "https://web.dev/learn/accessibility", "type": "course"},
+    {"title": "Accessibility Fundamentals", "provider": "W3C WAI", "url": "https://www.w3.org/WAI/fundamentals/", "type": "docs"}
+  ],
+  "node.js": [
+    {"title": "Learn Node.js", "provider": "nodejs.org", "url": "https://nodejs.org/en/learn", "type": "docs"}
+  ],
+  "git": [
+    {"title": "Pro Git (free book)", "provider": "git-scm.com", "url": "https://git-scm.com/book/en/v2", "type": "book"}
+  ],
+  "docker": [
+    {"title": "Get started with Docker", "provider": "Docker", "url": "https://docs.docker.com/get-started/", "type": "docs"}
+  ],
+  "kubernetes": [
+    {"title": "Kubernetes Basics tutorial", "provider": "kubernetes.io", "url": "https://kubernetes.io/docs/tutorials/kubernetes-basics/", "type": "docs"}
+  ],
+  "aws": [
+    {"title": "AWS Skill Builder", "provider": "Amazon Web Services", "url": "https://skillbuilder.aws/", "type": "course"}
+  ],
+  "azure": [
+    {"title": "Azure training paths", "provider": "Microsoft Learn", "url": "https://learn.microsoft.com/en-us/training/azure/", "type": "course"}
+  ],
+  "gcp": [
+    {"title": "Google Cloud Skills Boost", "provider": "Google Cloud", "url": "https://www.cloudskillsboost.google/", "type": "course"}
+  ],
+  "cloud computing": [
+    {"title": "AWS Skill Builder", "provider": "Amazon Web Services", "url": "https://skillbuilder.aws/", "type": "course"},
+    {"title": "Google Cloud Skills Boost", "provider": "Google Cloud", "url": "https://www.cloudskillsboost.google/", "type": "course"}
+  ],
+  "terraform": [
+    {"title": "Terraform tutorials", "provider": "HashiCorp", "url": "https://developer.hashicorp.com/terraform/tutorials", "type": "docs"}
+  ],
+  "linux": [
+    {"title": "The Linux Command Line (free book)", "provider": "William Shotts", "url": "https://linuxcommand.org/tlcl.php", "type": "book"}
+  ],
+  "bash": [
+    {"title": "The Linux Command Line (free book)", "provider": "William Shotts", "url": "https://linuxcommand.org/tlcl.php", "type": "book"}
+  ],
+  "ci/cd": [
+    {"title": "GitHub Actions documentation", "provider": "GitHub", "url": "https://docs.github.com/en/actions", "type": "docs"}
+  ],
+  "machine learning": [
+    {"title": "Machine Learning Specialization", "provider": "DeepLearning.AI on Coursera", "url": "https://www.coursera.org/specializations/machine-learning-introduction", "type": "course"},
+    {"title": "Machine Learning Crash Course", "provider": "Google", "url": "https://developers.google.com/machine-learning/crash-course", "type": "course"}
+  ],
+  "deep learning": [
+    {"title": "Practical Deep Learning for Coders", "provider": "fast.ai", "url": "https://course.fast.ai/", "type": "course"},
+    {"title": "Dive into Deep Learning (free book)", "provider": "d2l.ai", "url": "https://d2l.ai/", "type": "book"}
+  ],
+  "pytorch": [
+    {"title": "PyTorch tutorials", "provider": "pytorch.org", "url": "https://pytorch.org/tutorials/", "type": "docs"}
+  ],
+  "tensorflow": [
+    {"title": "TensorFlow tutorials", "provider": "tensorflow.org", "url": "https://www.tensorflow.org/tutorials", "type": "docs"}
+  ],
+  "scikit-learn": [
+    {"title": "scikit-learn user guide", "provider": "scikit-learn.org", "url": "https://scikit-learn.org/stable/user_guide.html", "type": "docs"}
+  ],
+  "nlp": [
+    {"title": "Hugging Face NLP Course", "provider": "Hugging Face", "url": "https://huggingface.co/learn/nlp-course", "type": "course"},
+    {"title": "CS224N: NLP with Deep Learning", "provider": "Stanford", "url": "https://web.stanford.edu/class/cs224n/", "type": "course"}
+  ],
+  "transformers": [
+    {"title": "Hugging Face NLP Course", "provider": "Hugging Face", "url": "https://huggingface.co/learn/nlp-course", "type": "course"}
+  ],
+  "large language models": [
+    {"title": "Hugging Face Learn", "provider": "Hugging Face", "url": "https://huggingface.co/learn", "type": "course"},
+    {"title": "Prompt engineering overview", "provider": "Anthropic", "url": "https://docs.claude.com/en/docs/build-with-claude/prompt-engineering/overview", "type": "docs"}
+  ],
+  "prompt engineering": [
+    {"title": "Prompt engineering overview", "provider": "Anthropic", "url": "https://docs.claude.com/en/docs/build-with-claude/prompt-engineering/overview", "type": "docs"}
+  ],
+  "computer vision": [
+    {"title": "CS231n: Deep Learning for Computer Vision", "provider": "Stanford", "url": "https://cs231n.stanford.edu/", "type": "course"}
+  ],
+  "opencv": [
+    {"title": "OpenCV tutorials", "provider": "opencv.org", "url": "https://docs.opencv.org/4.x/d9/df8/tutorial_root.html", "type": "docs"}
+  ],
+  "mlops": [
+    {"title": "Made With ML", "provider": "Anyscale", "url": "https://madewithml.com/", "type": "course"},
+    {"title": "MLOps principles", "provider": "ml-ops.org", "url": "https://ml-ops.org/", "type": "docs"}
+  ],
+  "statistics": [
+    {"title": "Statistics and probability", "provider": "Khan Academy", "url": "https://www.khanacademy.org/math/statistics-probability", "type": "course"},
+    {"title": "An Introduction to Statistical Learning (free book)", "provider": "statlearning.com", "url": "https://www.statlearning.com/", "type": "book"}
+  ],
+  "mathematics": [
+    {"title": "Mathematics for Machine Learning (free book)", "provider": "mml-book", "url": "https://mml-book.github.io/", "type": "book"}
+  ],
+  "data analysis": [
+    {"title": "Google Data Analytics Professional Certificate", "provider": "Google on Coursera", "url": "https://www.coursera.org/professional-certificates/google-data-analytics", "type": "course"}
+  ],
+  "data visualization": [
+    {"title": "Fundamentals of Data Visualization (free book)", "provider": "Claus Wilke", "url": "https://clauswilke.com/dataviz/", "type": "book"}
+  ],
+  "tableau": [
+    {"title": "Tableau training", "provider": "Tableau", "url": "https://www.tableau.com/learn/training", "type": "course"}
+  ],
+  "power bi": [
+    {"title": "Power BI training", "provider": "Microsoft Learn", "url": "https://learn.microsoft.com/en-us/training/powerplatform/power-bi", "type": "course"}
+  ],
+  "pandas": [
+    {"title": "Getting started with pandas", "provider": "pandas.pydata.org", "url": "https://pandas.pydata.org/docs/getting_started/index.html", "type": "docs"}
+  ],
+  "r": [
+    {"title": "R for Data Science (free book)", "provider": "Hadley Wickham", "url": "https://r4ds.hadley.nz/", "type": "book"}
+  ],
+  "apache spark": [
+    {"title": "Spark quick start", "provider": "Apache Spark", "url": "https://spark.apache.org/docs/latest/quick-start.html", "type": "docs"}
+  ],
+  "airflow": [
+    {"title": "Airflow tutorial", "provider": "Apache Airflow", "url": "https://airflow.apache.org/docs/apache-airflow/stable/tutorial/index.html", "type": "docs"}
+  ],
+  "dbt": [
+    {"title": "dbt documentation", "provider": "dbt Labs", "url": "https://docs.getdbt.com/docs/introduction", "type": "docs"}
+  ],
+  "kafka": [
+    {"title": "Kafka quickstart", "provider": "Apache Kafka", "url": "https://kafka.apache.org/quickstart", "type": "docs"}
+  ],
+  "postgresql": [
+    {"title": "PostgreSQL tutorial", "provider": "postgresql.org", "url": "https://www.postgresql.org/docs/current/tutorial.html", "type": "docs"}
+  ],
+  "mongodb": [
+    {"title": "MongoDB University", "provider": "MongoDB", "url": "https://learn.mongodb.com/", "type": "course"}
+  ],
+  "java": [
+    {"title": "Learn Java", "provider": "dev.java", "url": "https://dev.java/learn/", "type": "docs"}
+  ],
+  "c++": [
+    {"title": "Learn C++", "provider": "learncpp.com", "url": "https://www.learncpp.com/", "type": "course"}
+  ],
+  "c#": [
+    {"title": "C# documentation", "provider": "Microsoft Learn", "url": "https://learn.microsoft.com/en-us/dotnet/csharp/", "type": "docs"}
+  ],
+  "go": [
+    {"title": "A Tour of Go", "provider": "go.dev", "url": "https://go.dev/tour/", "type": "course"}
+  ],
+  "rust": [
+    {"title": "The Rust Programming Language (free book)", "provider": "rust-lang.org", "url": "https://doc.rust-lang.org/book/", "type": "book"}
+  ],
+  "swift": [
+    {"title": "The Swift Programming Language", "provider": "swift.org", "url": "https://docs.swift.org/swift-book/", "type": "book"}
+  ],
+  "kotlin": [
+    {"title": "Get started with Kotlin", "provider": "JetBrains", "url": "https://kotlinlang.org/docs/getting-started.html", "type": "docs"}
+  ],
+  "flutter": [
+    {"title": "Get started with Flutter", "provider": "Flutter", "url": "https://docs.flutter.dev/get-started", "type": "docs"}
+  ],
+  "react native": [
+    {"title": "React Native: Getting started", "provider": "reactnative.dev", "url": "https://reactnative.dev/docs/getting-started", "type": "docs"}
+  ],
+  "rest apis": [
+    {"title": "HTTP guides", "provider": "MDN", "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP", "type": "docs"},
+    {"title": "FastAPI tutorial", "provider": "FastAPI", "url": "https://fastapi.tiangolo.com/tutorial/", "type": "docs"}
+  ],
+  "system design": [
+    {"title": "The System Design Primer", "provider": "GitHub", "url": "https://github.com/donnemartin/system-design-primer", "type": "docs"}
+  ],
+  "distributed systems": [
+    {"title": "The System Design Primer", "provider": "GitHub", "url": "https://github.com/donnemartin/system-design-primer", "type": "docs"}
+  ],
+  "data structures & algorithms": [
+    {"title": "Algorithms Specialization", "provider": "Stanford on Coursera", "url": "https://www.coursera.org/specializations/algorithms", "type": "course"}
+  ],
+  "testing": [
+    {"title": "Playwright: Getting started", "provider": "Playwright", "url": "https://playwright.dev/docs/intro", "type": "docs"}
+  ],
+  "selenium": [
+    {"title": "Selenium documentation", "provider": "selenium.dev", "url": "https://www.selenium.dev/documentation/", "type": "docs"}
+  ],
+  "playwright": [
+    {"title": "Playwright: Getting started", "provider": "Playwright", "url": "https://playwright.dev/docs/intro", "type": "docs"}
+  ],
+  "figma": [
+    {"title": "Figma help and tutorials", "provider": "Figma", "url": "https://help.figma.com/hc/en-us", "type": "docs"}
+  ],
+  "ux design": [
+    {"title": "Google UX Design Professional Certificate", "provider": "Google on Coursera", "url": "https://www.coursera.org/professional-certificates/google-ux-design", "type": "course"}
+  ],
+  "user research": [
+    {"title": "UX research articles", "provider": "Nielsen Norman Group", "url": "https://www.nngroup.com/articles/", "type": "docs"}
+  ],
+  "usability testing": [
+    {"title": "UX research articles", "provider": "Nielsen Norman Group", "url": "https://www.nngroup.com/articles/", "type": "docs"}
+  ],
+  "seo": [
+    {"title": "SEO Starter Guide", "provider": "Google Search Central", "url": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide", "type": "docs"}
+  ],
+  "google analytics": [
+    {"title": "Google Skillshop", "provider": "Google", "url": "https://skillshop.withgoogle.com/", "type": "course"}
+  ],
+  "paid advertising": [
+    {"title": "Google Skillshop", "provider": "Google", "url": "https://skillshop.withgoogle.com/", "type": "course"}
+  ],
+  "content marketing": [
+    {"title": "HubSpot Academy", "provider": "HubSpot", "url": "https://academy.hubspot.com/", "type": "course"}
+  ],
+  "digital marketing": [
+    {"title": "HubSpot Academy", "provider": "HubSpot", "url": "https://academy.hubspot.com/", "type": "course"}
+  ],
+  "salesforce": [
+    {"title": "Trailhead", "provider": "Salesforce", "url": "https://trailhead.salesforce.com/", "type": "course"}
+  ],
+  "crm": [
+    {"title": "Trailhead", "provider": "Salesforce", "url": "https://trailhead.salesforce.com/", "type": "course"}
+  ],
+  "project management": [
+    {"title": "Google Project Management Professional Certificate", "provider": "Google on Coursera", "url": "https://www.coursera.org/professional-certificates/google-project-management", "type": "course"}
+  ],
+  "agile": [
+    {"title": "The Scrum Guide", "provider": "scrumguides.org", "url": "https://scrumguides.org/", "type": "docs"}
+  ],
+  "scrum": [
+    {"title": "The Scrum Guide", "provider": "scrumguides.org", "url": "https://scrumguides.org/", "type": "docs"}
+  ],
+  "technical writing": [
+    {"title": "Technical Writing courses", "provider": "Google", "url": "https://developers.google.com/tech-writing", "type": "course"}
+  ],
+  "documentation": [
+    {"title": "Technical Writing courses", "provider": "Google", "url": "https://developers.google.com/tech-writing", "type": "course"}
+  ],
+  "accounting": [
+    {"title": "Finance and capital markets", "provider": "Khan Academy", "url": "https://www.khanacademy.org/economics-finance-domain/core-finance", "type": "course"}
+  ],
+  "network security": [
+    {"title": "Google Cybersecurity Professional Certificate", "provider": "Google on Coursera", "url": "https://www.coursera.org/professional-certificates/google-cybersecurity", "type": "course"}
+  ],
+  "web application security": [
+    {"title": "Web Security Academy", "provider": "PortSwigger", "url": "https://portswigger.net/web-security", "type": "course"},
+    {"title": "OWASP Top Ten", "provider": "OWASP", "url": "https://owasp.org/www-project-top-ten/", "type": "docs"}
+  ],
+  "penetration testing": [
+    {"title": "Web Security Academy", "provider": "PortSwigger", "url": "https://portswigger.net/web-security", "type": "course"},
+    {"title": "TryHackMe learning paths", "provider": "TryHackMe", "url": "https://tryhackme.com/", "type": "course"}
+  ],
+  "networking": [
+    {"title": "Computer Networking: A Top-Down Approach (author resources)", "provider": "Kurose & Ross", "url": "https://gaia.cs.umass.edu/kurose_ross/index.php", "type": "course"}
+  ],
+  "solidity": [
+    {"title": "Solidity documentation", "provider": "soliditylang.org", "url": "https://docs.soliditylang.org/", "type": "docs"}
+  ],
+  "unity": [
+    {"title": "Unity Learn", "provider": "Unity", "url": "https://learn.unity.com/", "type": "course"}
+  ],
+  "ros": [
+    {"title": "ROS documentation", "provider": "Open Robotics", "url": "https://docs.ros.org/", "type": "docs"}
+  ],
+  "bioinformatics": [
+    {"title": "Rosalind problem sets", "provider": "Rosalind", "url": "https://rosalind.info/", "type": "course"}
+  ],
+  "excel": [
+    {"title": "Excel help and learning", "provider": "Microsoft Support", "url": "https://support.microsoft.com/en-us/excel", "type": "docs"}
+  ]
+}

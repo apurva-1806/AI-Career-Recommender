@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    scroll-behavior: smooth;
+    color-scheme: dark;
+  }
+  body {
+    @apply bg-night font-sans text-fog antialiased;
+  }
+  h1, h2, h3 {
+    @apply font-display;
+  }
+  :focus-visible {
+    @apply outline-none ring-2 ring-brand-light ring-offset-2 ring-offset-night;
+  }
+  ::selection {
+    background: rgba(47, 107, 255, 0.45);
+  }
+}
+
+@layer components {
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-5 py-2.5 text-sm font-semibold
+           transition-colors disabled:cursor-not-allowed disabled:opacity-50;
+  }
+  .btn-primary {
+    @apply btn bg-brand text-white shadow-glow hover:bg-[#4A80FF];
+  }
+  .btn-quiet {
+    @apply btn border border-edge bg-white/5 text-fog hover:border-brand-light/60 hover:bg-white/10;
+  }
+  .field {
+    @apply w-full rounded-xl border border-edge bg-night/70 px-3.5 py-2.5 text-[15px] text-fog
+           placeholder:text-fog/35 focus:border-brand focus:outline-none focus:ring-2 focus:ring-brand/30;
+  }
+  .chip {
+    @apply inline-flex items-center gap-1.5 rounded-full px-3 py-1 text-sm font-medium;
+  }
+  .chip-have {
+    @apply chip bg-brand/20 text-brand-light;
+  }
+  .chip-build {
+    @apply chip bg-amber/15 text-amber;
+  }
+  .chip-plain {
+    @apply chip border border-edge bg-white/5 text-fog/80;
+  }
+  .card {
+    @apply rounded-2xl border border-edge bg-panel;
+  }
+  /* Small pill that names a landing-page section */
+  .section-tag {
+    @apply inline-flex items-center gap-2 rounded-full border border-brand/40 bg-brand/10 px-3.5 py-1
+           text-sm font-medium text-brand-light;
+  }
+  .section-title {
+    @apply mt-4 text-3xl font-bold tracking-tight sm:text-[2.5rem] sm:leading-[1.1];
+  }
+  .section-lead {
+    @apply mt-3 text-[15px] leading-relaxed text-fog/65 sm:text-base;
+  }
+}
+
+@layer utilities {
+  /* Blue light pooled behind a section, as in a lit stage */
+  .glow-top {
+    background-image: radial-gradient(60% 55% at 50% 0%, rgba(47, 107, 255, 0.32), transparent 70%);
+  }
+  .glow-center {
+    background-image: radial-gradient(55% 80% at 50% 50%, rgba(47, 107, 255, 0.38), transparent 72%);
+  }
+  .grid-lines {
+    background-image:
+      linear-gradient(rgba(127, 174, 255, 0.06) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(127, 174, 255, 0.06) 1px, transparent 1px);
+    background-size: 44px 44px;
+    mask-image: radial-gradient(70% 60% at 50% 0%, black, transparent 75%);
+    -webkit-mask-image: radial-gradient(70% 60% at 50% 0%, black, transparent 75%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
